@@ -3,53 +3,53 @@
     <string name="facultate">Facultate</string>
 
     <string-array name="Facultate">
-        <item> - </item>
-        <item> Facultatea Design de produs si mediu </item>
-        <item> Facultatea de Inginerie mecanica</item>
-        <item> Facultatea de Stiinga si ingineria materialelor</item>
-        <item> Facultatea de Litere</item>
-        <item> Facultatea de Muzica</item>
-        <item> Facultatea de Stinte economice si administrarea afacerilor</item>
-        <item> Facultatea de Inginerie electrica si stiinta calculatoarelor</item>
-        <item> Facultatea de Inginerie tehnologica si management industrial</item>
-        <item> Facultatea de Drept</item>
-        <item> Facultatea de Matematica si Informatica</item>
-        <item> Facultatea de Psihologie si siintele educatiei</item>
-        <item> Facultatea de Alimentatie si turism</item>
-        <item> Facultatea de Ingineria lemnului</item>
-        <item> Facultatea de Silvicultura si exploatari forestiere</item>
-        <item> Facultatea de Educatie fizica si sporturi montane</item>
-        <item> Facultatea de Medicina</item>
-        <item> Facultatea de Sociologie si comunicare</item>
-        <item> Facultatea de Constructii</item>
+        <item>-</item>
+        <item>Facultatea Design de produs si mediu</item>
+        <item>Facultatea de Inginerie mecanica</item>
+        <item>Facultatea de Stiinga si ingineria materialelor</item>
+        <item>Facultatea de Litere</item>
+        <item>Facultatea de Muzica</item>
+        <item>Facultatea de Stinte economice si administrarea afacerilor</item>
+        <item>Facultatea de Inginerie electrica si stiinta calculatoarelor</item>
+        <item>Facultatea de Inginerie tehnologica si management industrial</item>
+        <item>Facultatea de Drept</item>
+        <item>Facultatea de Matematica si Informatica</item>
+        <item>Facultatea de Psihologie si siintele educatiei</item>
+        <item>Facultatea de Alimentatie si turism</item>
+        <item>Facultatea de Ingineria lemnului</item>
+        <item>Facultatea de Silvicultura si exploatari forestiere</item>
+        <item>Facultatea de Educatie fizica si sporturi montane</item>
+        <item>Facultatea de Medicina</item>
+        <item>Facultatea de Sociologie si comunicare</item>
+        <item>Facultatea de Constructii</item>
     </string-array>
 
     <string-array name="Forma_de_invatamant">
-        <item> - </item>
-        <item> Licenta </item>
-        <item> Master </item>
-        <item> Doctorat</item>
+        <item>-</item>
+        <item>Licenta</item>
+        <item>Master</item>
+        <item>Doctorat</item>
     </string-array>
 
     <string-array name="Specializare">
-        <item> - </item>
-        <item> Electrotehnica </item>
-        <item> Inginerie electrica si calculatoare (Lb Engleza) </item>
-        <item> Electronica aplicata </item>
-        <item> Tehnologii si sisteme de comunicatii </item>
-        <item> Calculatoare </item>
-        <item> Automatica si Informatica aplicata</item>
-        <item> Tehnologia informatii </item>
-        <item> Robotica </item>
+        <item>-</item>
+        <item>Electrotehnica</item>
+        <item>Inginerie electrica si calculatoare (Lb Engleza)</item>
+        <item>Electronica aplicata</item>
+        <item>Tehnologii si sisteme de comunicatii</item>
+        <item>Calculatoare</item>
+        <item>Automatica si Informatica aplicata</item>
+        <item>Tehnologia informatii</item>
+        <item>Robotica</item>
     </string-array>
 
     //labaza de data converteste string`uri in int//
     <string-array name="An">
-        <item> </item>
-        <item> Anul 1 </item>
-        <item> Anul 2 </item>
-        <item> Anul 3 </item>
-        <item> Anul 4 </item>
+        <item></item>
+        <item>Anul 1</item>
+        <item>Anul 2</item>
+        <item>Anul 3</item>
+        <item>Anul 4</item>
     </string-array>
 
 
