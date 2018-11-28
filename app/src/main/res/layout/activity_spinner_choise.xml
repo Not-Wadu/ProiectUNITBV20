@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context=".SpinnerChoise">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/setup_image"
+            android:layout_width="163dp"
+            android:layout_height="154dp"
+            android:src="@drawable/profile_picture"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.457"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/setupToolbar"
+            app:layout_constraintVertical_bias="0.199" />
+
+
+        <EditText
+            android:id="@+id/edit_text_nume_prenume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="15dp"
+            android:hint="Nume si prenume"
+            android:inputType="text"
+            android:padding="15dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/facultate"
+            
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:completionThreshold="1"
+            android:hint="Selecteaza facultatea"
+            android:padding="15dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/specializare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:completionThreshold="1"
+            android:hint="Selecteaza specializare"
+            android:padding="15dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/an"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:completionThreshold="1"
+            android:hint="Selecteaza anul"
+            android:padding="15dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/grupa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:completionThreshold="1"
+            android:hint="Selecteaza grupa"
+            android:padding="15dp" />
+
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Finalizare register"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </LinearLayout>
+</ScrollView>
